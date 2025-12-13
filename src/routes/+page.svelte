@@ -4,12 +4,15 @@
   let end: Date;
 
   async function scrobble() {
+    let lStart: Date = new Date(start);
+    let lEnd: Date = new Date(end);
+    console.log(typeof start);
     await fetch('/', {
       method: 'POST',
       body: JSON.stringify({
         station,
-        start,
-        end
+        start: lStart.toISOString(),
+        end: lEnd.toISOString()
       })
     })
   }
