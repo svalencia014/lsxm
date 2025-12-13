@@ -37,9 +37,9 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
 
-Test Ranges:
+Test Ranges (Eastern):
 12-12-2025 8:55 AM to 9:05 AM (~3 Songs)
 12-12-2025 12:25 PM to 12:57 PM 
 12-12 2025 1:01 PM to 1:09 PM
 12-13-2025 8:07 AM to 8:23 AM
-12-13-2025 8:40 AM to 
+12-13-2025 8:40 AM to 9:48 AM
